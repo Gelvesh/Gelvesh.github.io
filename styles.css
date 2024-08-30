@@ -91,3 +91,12 @@ footer {
     height: 40px;
     vertical-align: middle;
 }
+
+.dates-gpa {
+    display: flex; /* Enable Flexbox layout */
+    gap: 400px; /* Space between items (adjust as needed) */
+}
+
+.dates, .gpa {
+    margin: 0; /* Remove default margins if necessary */
+}
