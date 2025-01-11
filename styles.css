@@ -1,8 +1,14 @@
+/* 
+    Updated styles for the page:
+    - Changed the background color to a light purplish shade.
+    - Set the text color to a darker purple for better readability.
+*/
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #4a4a4a; /* Darker text color */
+    color: #3d1e5f; /* Darker purple text color */
     background-color: #f1e6f7; /* Light purplish background color */
 }
 
@@ -101,6 +107,7 @@ footer {
 .dates, .gpa {
     margin: 0; /* Remove default margins if necessary */
 }
+
 
 
 
