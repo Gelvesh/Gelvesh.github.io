@@ -93,9 +93,46 @@ ul li {
 
 /* === FOOTER === */
 footer {
-    padding: 20px;
     text-align: center;
-    border-top: 2px solid #ddd;
+    padding: 1rem;
+}
+
+footer .social-links {
+    margin-top: 0.5rem;
+}
+
+footer .social-links a {
+    margin: 0 12px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+footer .social-links .icon {
+    transition: fill 0.3s ease;
+    fill: currentColor; /* inherits text color */
+    vertical-align: middle;
+}
+
+/* Light mode colors */
+body:not(.dark) footer {
+    color: #222;
+}
+body:not(.dark) footer .social-links a:hover {
+    color: #0077b5; /* LinkedIn blue */
+}
+body:not(.dark) footer .social-links a:last-child:hover {
+    color: #333; /* GitHub dark */
+}
+
+/* Dark mode colors */
+body.dark footer {
+    color: #ddd;
+}
+body.dark footer .social-links a:hover {
+    color: #70b5f9; /* LinkedIn light blue */
+}
+body.dark footer .social-links a:last-child:hover {
+    color: #fff; /* GitHub white */
 }
 
 /* === SKILLS GRID === */
@@ -335,4 +372,5 @@ body.dark .education-entry {
 
 body.dark .education-entry strong {
     color: #fff;
+
 }
